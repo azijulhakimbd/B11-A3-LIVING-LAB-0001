@@ -1,14 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B11-A3-LIVING-LAB-0001</title>
     <!-- Google Fonts -->
-     <!-- daisyUI and Tailwind CSS CDN -->
-      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+    <!-- daisyUI and Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fontawesome CDN -->
+    <script src="https://kit.fontawesome.com/83b1eac6e1.js" crossorigin="anonymous"></script>
+
+    <!-- Fav icon -->
+    <link rel="shortcut icon" href="./c1-assets/logo-header.png" type="image/x-icon">
+
+    <!-- Custom Styles -->
+    <style>
+        .primary-font{
+            font-family: "ADLaM Display", serif;
+        }
+        .primary-color{
+            background-color: #FFDC26;
+        }
+        .item-color{
+            color: #FCCC80;
+        }
+    </style>
 </head>
-<body>
-    
+<body class="primary-font">
+    <header class="mx-24">
+        <!-- nav bar -->
+        <nav class="my-2">
+            <div class="lg:flex justify-between">
+               <div> <img src="./c1-assets/logo-header.png" alt="Logo"></div>
+                <div class="lg:justify-center justify-between">
+                    <ul class="lg:flex justify-between gap-4">
+                        <li><a href="#">Find a pet</a><li>
+                            <li><a href="#">Breeds</a></li>
+                            <li>
+                                <a href="#">Contact us</a>
+                            </li>
+                    </ul>
+                </div>
+            
+                <div>
+                    <i class="fa-regular fa-bell px-1"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <button class="btn">login</button>
+                    <button class="btn bg-yellow-300">Register</button>
+                </div>
+            </div>
+        </nav>
+        <!-- Banner Section  -->
+         <Section>
+            <div class="flex mx-auto">
+                <div class="py-10  my-8">
+                    <h1 class="text-4xl font-bold">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+                    <p>Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                    <button class="btn bg-yellow-300">Find a pet</button>
+                </div>
+                <div>
+                    <img src="./c1-assets/cat-big.png" alt="Cat">
+                </div>
+            </div>
+         </Section>
+        
+    </header> 
+    <main class="my-24 mx-auto">
+        
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
