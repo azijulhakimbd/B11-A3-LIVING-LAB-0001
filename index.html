@@ -34,9 +34,10 @@
 </head>
 <body class="primary-font">
     <header class="mx-24">
+
         <!-- nav bar start -->
          <!-- Navbar Desktop -->
-        <nav class="my-2">
+        <nav class="my-5">
             <div class="hidden lg:flex justify-between">
                <div> <img src="./c1-assets/logo-header.png" alt="Logo"></div>
                 <div class="lg:justify-center justify-between">
@@ -52,7 +53,7 @@
                 <div>
                     <i class="fa-regular fa-bell px-1"></i>
                     <i class="fa-solid fa-magnifying-glass"></i>
-                    <button class="btn">login</button>
+                    <button class="btn">Login</button>
                     <button class="btn bg-yellow-300">Register</button>
                 </div>
             </div>
@@ -70,9 +71,10 @@
          <Section>
             <div class="lg:flex mx-auto">
                 <div class="py-10  my-8">
-                    <h1 class="text-5xl font-bold py-4 lg:py-8">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
-                    <p class="text-xl font-normal py-4 lg:py-8">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
-                    <button class="btn bg-yellow-300">Find a pet</button>
+                    <h1 class="text-4xl font-bold py-4 lg:py-7">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+                    <p class="text-xl text-gray-500 font-normal py-4 lg:py-8">Discover a world of treats, toys, and essentials handpicked for
+                         your furry friends. Shop now and make tails wag with joy!</p>
+                    <button class="btn bg-yellow-300 text-xl font-normal">Find a pet</button>
                 </div>
                 <div>
                     <img src="./c1-assets/cat-big.png" alt="Cat">
@@ -81,8 +83,115 @@
          </Section>
         
     </header> 
-    <main class="my-24 mx-auto">
-        
+    <main class="my-24 mx-24">
+
+        <!-- Browse By Categories -->
+         <section>
+            <div>
+                <h2 class="text-4xl font-bold py-10">Browse By Categories</h2>
+                  <div class="grid grid-cols-2 lg:grid-cols-6 gap-4">
+                  <!-- Dog -->
+                   <div class="bg-[#F9DF8A] rounded-xl">
+                   
+                       <div class="bg-white p-10 m-10 rounded-full items-center">
+                           <img src="./c1-assets/dog-cartoon.png" alt="" class="w-[100px] h-[100px]">
+                        </div>
+                           <div class="text-center p-4 m-4">
+                             <h4 class="text-2xl font-normal">Dog</h4>
+                               <p>3 items</p>
+                           </div> 
+                   </div>
+                  <!-- Fish -->
+                   <div class="bg-[#F9DF8A] rounded-xl">
+                   
+                       <div class="bg-white p-10 m-10 rounded-full items-center">
+                           <img src="./c1-assets/fish-cartoon.png" alt="" class="w-[100px] h-[100px]">
+                        </div>
+                           <div class="text-center p-4 m-4">
+                             <h4 class="text-2xl font-normal">Fish</h4>
+                               <p>3 items</p>
+                           </div> 
+                   </div>
+                  <!-- Cat -->
+                   <div class="bg-[#F9DF8A] rounded-xl">
+                   
+                       <div class="bg-white p-10 m-10 rounded-full items-center">
+                           <img src="./c1-assets/cat-cartoon.png" alt="" class="w-[100px] h-[100px]">
+                        </div>
+                           <div class="text-center p-4 m-4">
+                             <h4 class="text-2xl font-normal">Cat</h4>
+                               <p>3 items</p>
+                           </div> 
+                   </div>
+                  <!-- Birds -->
+                   <div class="bg-[#F9DF8A] rounded-xl">
+                   
+                       <div class="bg-white p-10 m-10 rounded-full items-center">
+                           <img src="./c1-assets/bird-cartoon.png" alt="" class="w-[100px] h-[100px]">
+                        </div>
+                           <div class="text-center p-4 m-4">
+                             <h4 class="text-2xl font-normal">Birds</h4>
+                               <p>3 items</p>
+                           </div> 
+                   </div>
+                  <!-- Small pet -->
+                   <div class="bg-[#F9DF8A] rounded-xl">
+                   
+                       <div class="bg-white p-10 m-10 rounded-full items-center">
+                           <img src="./c1-assets/mouse-cartoon.png" alt="" class="w-[100px] h-[100px]">
+                        </div>
+                           <div class="text-center p-4 m-4">
+                             <h4 class="text-2xl font-normal">Small pet</h4>
+                               <p>3 items</p>
+                           </div> 
+                   </div>
+                  <!-- Rabbit -->
+                   <div class="bg-[#F9DF8A] rounded-xl">
+                   
+                       <div class="bg-white p-10 m-10 rounded-full items-center">
+                           <img src="./c1-assets/rabbit-cartoon.png" alt="" class="w-[100px] h-[100px]">
+                        </div>
+                           <div class="text-center p-4 m-4">
+                             <h4 class="text-2xl font-normal">Rabbit</h4>
+                               <p>3 items</p>
+                           </div> 
+                   </div>
+                       
+               
+                  </div>
+                </div>
+         </section>
+
+         <!-- Trending Pet Products -->
+         <section class="my-20">
+            <h2 class="text-4xl font-bold py-10">Trending Pet Products</h2>
+            <div>
+                        <div class="flex relative">
+                            <div class="bg-[#F9DF8A] rounded-xl">
+                                <div class=" py-8 my-5   ">
+                                 <h3>T- Shirt For Dogs</h3>
+                                 <p>Discover a world of treats, toys, and essentials handpicked for your furry friends.</p>
+                                 <button class="btn bg-white text-black">Shop Now</button>
+                                 </div>
+                                 <div class="absolute top-1 right-2">
+                                     <img src="./c1-assets/cute-pet-mid.png" alt="">
+                                 </div>
+                             </div>
+                        </div>
+                
+                <div class="bg-slate-300">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+            </div>
+         </section>
     </main>
     <footer>
 
