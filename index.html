@@ -34,9 +34,10 @@
 </head>
 <body class="primary-font">
     <header class="mx-24">
-        <!-- nav bar -->
+        <!-- nav bar start -->
+         <!-- Navbar Desktop -->
         <nav class="my-2">
-            <div class="lg:flex justify-between">
+            <div class="hidden lg:flex justify-between">
                <div> <img src="./c1-assets/logo-header.png" alt="Logo"></div>
                 <div class="lg:justify-center justify-between">
                     <ul class="lg:flex justify-between gap-4">
@@ -55,13 +56,22 @@
                     <button class="btn bg-yellow-300">Register</button>
                 </div>
             </div>
+            <!-- Mobile Navbar  -->
+            <div class="justify-between my-4 text-center flex border-b border-black rounded-sm lg:hidden py-4">
+                <div>
+                    <img src="./c1-assets/logo-header.png" alt="">
+                </div>
+                <div>
+                    <i class="fa-solid fa-bars text-4xl text-center"></i>
+                </div>
+            </div>
         </nav>
         <!-- Banner Section  -->
          <Section>
-            <div class="flex mx-auto">
+            <div class="lg:flex mx-auto">
                 <div class="py-10  my-8">
-                    <h1 class="text-4xl font-bold">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
-                    <p>Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                    <h1 class="text-5xl font-bold py-4 lg:py-8">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+                    <p class="text-xl font-normal py-4 lg:py-8">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
                     <button class="btn bg-yellow-300">Find a pet</button>
                 </div>
                 <div>
