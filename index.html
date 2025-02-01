@@ -7,7 +7,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 
     <!-- daisyUI and Tailwind CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -24,6 +24,9 @@
         .primary-font{
             font-family: "ADLaM Display", serif;
         }
+        .sora{
+            font-family: "Sora", serif;
+        }
         .primary-color{
             background-color: #FFDC26;
         }
@@ -37,7 +40,7 @@
 
         <!-- nav bar start -->
          <!-- Navbar Desktop -->
-        <nav class="my-5">
+        <nav class="my-5 sora">
             <div class="hidden lg:flex justify-between">
                <div> <img src="./c1-assets/logo-header.png" alt="Logo"></div>
                 <div class="lg:justify-center justify-between">
@@ -72,9 +75,9 @@
             <div class="lg:flex mx-auto">
                 <div class="py-10  my-8">
                     <h1 class="text-4xl font-bold py-4 lg:py-7">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
-                    <p class="text-xl text-gray-500 font-normal py-4 lg:py-8">Discover a world of treats, toys, and essentials handpicked for
+                    <p class="text-xl text-gray-500 font-normal py-4 lg:py-8 sora">Discover a world of treats, toys, and essentials handpicked for
                          your furry friends. Shop now and make tails wag with joy!</p>
-                    <button class="btn bg-yellow-300 text-xl font-normal">Find a pet</button>
+                    <button class="btn bg-yellow-300 text-xl font-normal sora">Find a pet</button>
                 </div>
                 <div>
                     <img src="./c1-assets/cat-big.png" alt="Cat">
@@ -98,7 +101,7 @@
                         </div>
                            <div class="text-center p-4 m-4">
                              <h4 class="text-2xl font-normal">Dog</h4>
-                               <p>3 items</p>
+                               <p class="sora">3 items</p>
                            </div> 
                    </div>
                   <!-- Fish -->
@@ -109,7 +112,7 @@
                         </div>
                            <div class="text-center p-4 m-4">
                              <h4 class="text-2xl font-normal">Fish</h4>
-                               <p>3 items</p>
+                               <p class="sora">3 items</p>
                            </div> 
                    </div>
                   <!-- Cat -->
@@ -120,7 +123,7 @@
                         </div>
                            <div class="text-center p-4 m-4">
                              <h4 class="text-2xl font-normal">Cat</h4>
-                               <p>3 items</p>
+                               <p class="sora">3 items</p>
                            </div> 
                    </div>
                   <!-- Birds -->
@@ -131,7 +134,7 @@
                         </div>
                            <div class="text-center p-4 m-4">
                              <h4 class="text-2xl font-normal">Birds</h4>
-                               <p>3 items</p>
+                               <p class="sora">3 items</p>
                            </div> 
                    </div>
                   <!-- Small pet -->
@@ -142,7 +145,7 @@
                         </div>
                            <div class="text-center p-4 m-4">
                              <h4 class="text-2xl font-normal">Small pet</h4>
-                               <p>3 items</p>
+                               <p class="sora">3 items</p>
                            </div> 
                    </div>
                   <!-- Rabbit -->
@@ -153,7 +156,7 @@
                         </div>
                            <div class="text-center p-4 m-4">
                              <h4 class="text-2xl font-normal">Rabbit</h4>
-                               <p>3 items</p>
+                               <p class="sora">3 items</p>
                            </div> 
                    </div>
                        
@@ -165,19 +168,103 @@
          <!-- Trending Pet Products -->
          <section class="my-20">
             <h2 class="text-4xl font-bold py-10">Trending Pet Products</h2>
-            <div class="flex">
-                        <div class="flex  gap-4">
+            <div class="lg:flex">
+                        <!-- Treading Left Section -->
+                        <div class="flex mr-8 my-8">
                             <div class="bg-[#F9DF8A] flex rounded-xl">
                                 <div class="py-10 mx-5">
                                  <h3 class="text-2xl font-bold my-5">T- Shirt For Dogs</h3>
-                                 <p class="text-xl font-normal my-5">Discover a world of treats, toys, and <br> essentials handpicked for your furry friends.</p>
-                                 <button class="btn bg-white text-black">Shop Now</button>
+                                 <p class="text-xl font-normal my-5 sora">Discover a world of treats, toys, and <br> essentials handpicked for your furry friends.</p>
+                                 <button class="btn bg-white text-black sora">Shop Now</button>
                                  </div>
                                  <div>
                                      <img src="./c1-assets/cute-pet-mid.png" alt="">
                                  </div>
                              </div>
                         </div>
+                        <!-- Treading Right Section  -->
+                         <div class="grid grid-cols-2 lg:grid-cols-3 gap-5">
+                            <!-- Card 1 -->
+                            <div class="flex bg-slate-200 rounded-lg gap-4">
+                                <div class="pb-5 mx-4"><img class="lg:w-[86px] lg:h-[86]" src="./c1-assets/pet-couch.png" alt=""> </div>
+                                <div><i class="fa-solid fa-star text-yellow-500"></i>4.5 <br>
+                                <h6 class="text-xl font-bold sora">Pet Bed</h6>
+                                <p class="text-xl font-normal sora">$39.99</p>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="flex bg-slate-200 rounded-lg gap-4">
+                                <div class="pb-5 mx-4"><img class="lg:w-[86px] lg:h-[86]" src="./c1-assets/pet-couch.png" alt=""> </div>
+                                <div><i class="fa-solid fa-star text-yellow-500"></i>4.5 <br>
+                                <h6 class="text-xl font-bold sora">Pet Bed</h6>
+                                <p class="text-xl font-normal sora">$39.99</p>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="flex bg-slate-200 rounded-lg gap-4">
+                                <div class="pb-5 mx-4"><img class="lg:w-[86px] lg:h-[86]" src="./c1-assets/pet-couch.png" alt=""> </div>
+                                <div><i class="fa-solid fa-star text-yellow-500"></i>4.5 <br>
+                                <h6 class="text-xl font-bold sora">Pet Bed</h6>
+                                <p class="text-xl font-normal sora">$39.99</p>
+                                </div>
+                            </div>
+                            <!-- Card 4 -->
+                            <div class="flex bg-slate-200 rounded-lg gap-4">
+                                <div class="pb-5 mx-4"><img class="lg:w-[86px] lg:h-[86]" src="./c1-assets/pet-couch.png" alt=""> </div>
+                                <div><i class="fa-solid fa-star text-yellow-500"></i>4.5 <br>
+                                <h6 class="text-xl font-bold sora">Pet Bed</h6>
+                                <p class="text-xl font-normal sora">$39.99</p>
+                                </div>
+                            </div>
+                            <!-- Card 5 -->
+                            <div class="flex bg-slate-200 rounded-lg gap-4">
+                                <div class="pb-5 mx-4"><img class="lg:w-[86px] lg:h-[86]" src="./c1-assets/pet-couch.png" alt=""> </div>
+                                <div><i class="fa-solid fa-star text-yellow-500"></i>4.5 <br>
+                                <h6 class="text-xl font-bold sora">Pet Bed</h6>
+                                <p class="text-xl font-normal sora">$39.99</p>
+                                </div>
+                            </div>
+                            <!-- Card 6 -->
+                            <div class="flex bg-slate-200 rounded-lg gap-4">
+                                <div class="pb-5 mx-4"><img class="lg:w-[86px] lg:h-[86]" src="./c1-assets/pet-couch.png" alt=""> </div>
+                                <div><i class="fa-solid fa-star text-yellow-500"></i>4.5 <br>
+                                <h6 class="text-xl font-bold sora">Pet Bed</h6>
+                                <p class="text-xl font-normal sora">$39.99</p>
+                                </div>
+                            </div>
+                            <!-- Card 7 -->
+                            <div class="flex bg-slate-200 rounded-lg gap-4">
+                                <div class="pb-5 mx-4"><img class="lg:w-[86px] lg:h-[86]" src="./c1-assets/pet-couch.png" alt=""> </div>
+                                <div><i class="fa-solid fa-star text-yellow-500"></i>4.5 <br>
+                                <h6 class="text-xl font-bold sora">Pet Bed</h6>
+                                <p class="text-xl font-normal sora">$39.99</p>
+                                </div>
+                            </div>
+                            <!-- Card 8 -->
+                            <div class="flex bg-slate-200 rounded-lg gap-4">
+                                <div class="pb-5 mx-4"><img class="lg:w-[86px] lg:h-[86]" src="./c1-assets/pet-couch.png" alt=""> </div>
+                                <div><i class="fa-solid fa-star text-yellow-500"></i>4.5 <br>
+                                <h6 class="text-xl font-bold sora">Pet Bed</h6>
+                                <p class="text-xl font-normal sora">$39.99</p>
+                                </div>
+                            </div>
+                            <!-- Card 9 -->
+                            <div class="flex bg-slate-200 rounded-lg gap-4">
+                                <div class="pb-5 mx-4"><img class="lg:w-[86px] lg:h-[86]" src="./c1-assets/pet-couch.png" alt=""> </div>
+                                <div><i class="fa-solid fa-star text-yellow-500"></i>4.5 <br>
+                                <h6 class="text-xl font-bold sora">Pet Bed</h6>
+                                <p class="text-xl font-normal sora">$39.99</p>
+                                </div>
+                            </div>
+                            <!-- Hidden for mobile -->
+                            <div class="flex bg-slate-200 lg:hidden rounded-lg gap-4">
+                                <div class="pb-5 mx-4"><img class="lg:w-[86px] lg:h-[86]" src="./c1-assets/pet-couch.png" alt=""> </div>
+                                <div><i class="fa-solid fa-star text-yellow-500"></i>4.5 <br>
+                                <h6 class="text-xl font-bold sora">Pet Bed</h6>
+                                <p class="text-xl font-normal sora">$39.99</p>
+                                </div>
+                            </div>
+                         </div>
                 
                 
                   
@@ -187,7 +274,7 @@
     </main>
     <footer>
         <!-- footer Section  -->
-         <section class="max-w-full bg-yellow-200">
+         <section class="max-w-full sora bg-yellow-200">
             <div>
                 <div class="flex justify-between mx-24 pt-10">
                     <div><img src="./c1-assets/logo-footer.png" alt="">
